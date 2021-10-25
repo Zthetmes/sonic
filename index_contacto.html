@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="contacto.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <title>Sonic</title>
+</head>
+
+<body>
+
+
+  <section>
+    <header>
+      <a href="#"><img id="logo" src="img/logo.png" alt="Logo"></a>
+      <div class="hamburgueja">
+
+      </div>
+      <ul class="nbar">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index_espe.html">Especificaciones</a></li>
+        <li><a href="index_galery.html">Galeria</a></li>
+        <li><a href="index_contacto.html">Contacto</a></li>
+
+      </ul>
+    </header>
+
+
+
+
+
+
+    <div class="cont-form">
+      <div class="area-mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.836498399157!2d-83.04079803799479!3d42.32896094635804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d050659721c1%3A0x982e0f61ac6a7b98!2sGeneral%20Motors%20Corporation%3A%20Hudyma%20David!5e0!3m2!1ses!2sar!4v1634848364191!5m2!1ses!2sar"
+          style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div id="rsociales">
+        <div id="social__media">
+          <li><a href="https://www.facebook.com/ChevroletArgentina/" target="_blank"><i class="fab fa-facebook"
+                aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/chevroletarg" target="_blank"><i class="fab fa-twitter"
+                aria-hidden="true"></i></a></li>
+          <li><a href="https://www.youtube.com/c/Chevrolet" target="_blank"><i class="fab fa-youtube"
+                aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/chevrolet/?originalSubdomain=ar" target="_blank"><i
+                class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/chevroletarg/?hl=es" target="_blank"><i class="fab fa-instagram"
+                aria-hidden="true"></i></a></li>
+        </div>
+
+
+      </div>
+      <div class="formulario">
+
+        <form id="formulario" action="" autocomplete="off">
+          <div id="titfo">
+            <h3 class="titulo_form">Contactenos</h3>
+          </div>
+          <div>
+            <div class="input-container">
+              <input id="name"type="text" name="name" class="input"  >
+              <label for="name">Nombre</label>
+              <span>Nombre</span>
+              <small id="errorName" class="errorName"></small>
+            </div>
+            <div class="input-container">
+              <input id="email" type="text" name="email" class="input" >
+              <label for="email">Email</label>
+              <span>Email</span>
+              <small id="errorEmail" class="errorEmail"></small>
+            </div>
+            <div class="input-container">
+              <input id="tel" type="tel" name="phone" class="input" >
+              <label for="">Telefono</label>
+              <span>Telefono</span>
+              <small id="errorTel" class="errorTel"></small>
+            </div>
+            <div class="input-container textarea">
+              <textarea id="comentarios" name="comentarios" class="input"></textarea>
+              <label for="">Mensaje</label>
+              <span>Mensaje</span>
+              <small id="errorCom" class="errorCom"></small>
+            </div>
+          </div>
+          <div class="boton-contacto">
+            <small id="envioExitoso" class="envio"></small>
+            <input type="submit" value="Enviar" class="boton" onclick="validarFormulario()"/>
+            <div class="boton2"></div>
+
+          </div>
+
+        </form>
+      </div>
+
+
+
+
+
+
+
+  </section>
+
+  <script src="contact.js"></script>
+
+
+</body>
+</html>
